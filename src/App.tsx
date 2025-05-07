@@ -5,7 +5,7 @@ import Overview from './components/Overview';
 // import Objectives from './components/Objectives';
 // import Deliverables from './components/Deliverables';
 import Diagrams from './components/Diagrams';
-import FinalOutput from './components/FinalOutput';
+// import FinalOutput from './components/FinalOutput';
 import Footer from './components/Footer';
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
         {/* <Objectives /> */}
         {/* <Deliverables /> */}
         <Diagrams />
-        <FinalOutput />
+        {/* <FinalOutput /> */}
       </motion.main>
       <Footer />
     </div>
