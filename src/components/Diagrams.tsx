@@ -1,4 +1,10 @@
 import React from 'react';
+import botImg  from '/src/components/assets/Bot.png';
+import cldImg from '/src/components/assets/cld.png';
+import stockImg from '/src/components/assets/stock.png';
+
+
+
 
 const Diagrams: React.FC = () => {
   return (
@@ -6,8 +12,8 @@ const Diagrams: React.FC = () => {
       <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
         <p style={{ fontWeight: 'bold', width: '200px', textAlign: 'right' }}>Causal Loop Diagram</p>
         <img
-          src="./src/components/cld.png"
-          alt="Causal Loop Diagram"
+        src={cldImg}
+        alt="Causal Loop Diagram"
           style={{
             width: '480px',
             height: '250px',
@@ -27,7 +33,7 @@ const Diagrams: React.FC = () => {
       <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
         <p style={{ fontWeight: 'bold', width: '200px', textAlign: 'right' }}>Stock and Flow Diagram</p>
         <img
-          src="./src/components/stock.png"
+          src={stockImg}
           alt="Stock and Flow Diagram"
           style={{
             width: '400px',
@@ -48,7 +54,7 @@ const Diagrams: React.FC = () => {
       <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
         <p style={{ fontWeight: 'bold', width: '200px', textAlign: 'right' }}>Behavior over Time Graph</p>
         <img
-          src="./src/components/Bot.png"
+          src={botImg}
           alt="Behavior over Time Graph"
           style={{
             width: '400px',
