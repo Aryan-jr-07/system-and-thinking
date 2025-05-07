@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import Header from './components/Header';
 import Overview from './components/Overview';
-import Objectives from './components/Objectives';
-import Deliverables from './components/Deliverables';
+// import Objectives from './components/Objectives';
+// import Deliverables from './components/Deliverables';
 import Diagrams from './components/Diagrams';
 import FinalOutput from './components/FinalOutput';
 import Footer from './components/Footer';
@@ -23,8 +23,8 @@ function App() {
         transition={{ duration: 0.5 }}
       >
         <Overview />
-        <Objectives />
-        <Deliverables />
+        {/* <Objectives /> */}
+        {/* <Deliverables /> */}
         <Diagrams />
         <FinalOutput />
       </motion.main>

@@ -31,7 +31,10 @@ const Header: React.FC = () => {
           <Brain className="h-8 w-8 text-neon-blue mr-3" />
           <div>
             <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neon-blue to-neon-violet">
-              University Hackathon 2025
+            System thinking hackathon 2025- Team Report
+
+
+
             </h1>
             <p className="text-sm text-slate-400">Innovation Through Technology</p>
           </div>
