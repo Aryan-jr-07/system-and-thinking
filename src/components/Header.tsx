@@ -32,9 +32,6 @@ const Header: React.FC = () => {
           <div>
             <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neon-blue to-neon-violet">
             System thinking hackathon 2025- Team Report
-
-
-
             </h1>
             <p className="text-sm text-slate-400">Innovation Through Technology</p>
           </div>
